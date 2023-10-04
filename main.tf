@@ -53,6 +53,7 @@ module "launch_template" {
   mod_owner                = var.owner
   mod_project              = var.project
   mod_team                 = var.team
+  mod_alb_sg_ids = module.alb.alb_sg_ids
 }
 # ALB
 module "alb" {

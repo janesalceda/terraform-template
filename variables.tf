@@ -103,3 +103,7 @@ variable "route53_record" {
   type    = string
   default = ""
 }
+variable alb_sg_ids {
+    type = string
+    default = ""
+}
