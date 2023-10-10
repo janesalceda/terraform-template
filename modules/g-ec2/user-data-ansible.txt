@@ -6,7 +6,7 @@ sudo apt-get install -y ansible awscli python3-boto3 python3-botocore
 
 #sudo apt install unzip
 
-sudo git clone https://adrianice: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@github.com/adrianice/ansible ~/ansible
+sudo git clone https://janesalceda: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@github.com:janesalceda/ansible ~/ansible
 
 #sudo aws s3 cp s3://skillup-s3-mj.salceda/ansible.zip ~/ansible.zip --region eu-west-2
 #cd ~
