@@ -1,6 +1,11 @@
 variable mod_ec2_name {
-  type    = string
-  default = ""
+ description = "List of EC2 instances"
+  type = list(object({
+    name          = string
+    instance_type = string
+    ami_id        = string
+    disk_size     = number
+  }))
 }
 variable mod_vpc_id {
   type    = string
